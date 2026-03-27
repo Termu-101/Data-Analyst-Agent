@@ -1,9 +1,7 @@
-# Data-Analyst-Agent
-AI-powered data analysis agent — upload any CSV, get instant charts &amp; stats, and chat with your data in plain English. Built with Llama 3, Groq, pandas, Plotly, and deployed on AWS
 
 <div align="center">
 
-# 🤖 Conversational Data Analyst Agent
+# 🤖 Data Analyst Agent
 
 <img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Llama_3-70B-FF6B35?style=for-the-badge&logo=meta&logoColor=white"/>
