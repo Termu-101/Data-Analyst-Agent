@@ -17,7 +17,7 @@
 
 <br/>
 
-![Demo](https://img.shields.io/badge/🚀_Live_Demo-Click_Here-success?style=for-the-badge)
+![Demo](http://data-agent-env.eba-ckzamic8.us-east-1.elasticbeanstalk.com/)
 
 </div>
 
