@@ -77,7 +77,6 @@ User uploads CSV
  Result returned as text or interactive chart
 ```
 
-> **Key insight:** The LLM never sees all your data. It sees only the schema (column names, types, 3 sample rows) and writes code. That code runs locally on your real data. This is how ChatGPT's Code Interpreter works internally.
 
 ---
 
@@ -142,8 +141,6 @@ data-analyst-agent/
 │
 ├── requirements.txt    # All dependencies pinned
 ├── Procfile            # Tells AWS how to start the app
-├── .ebextensions/      # AWS config — swap file for memory management
-│   └── 01_swap.config
 │
 ├── .env                # Your API key (never committed)
 ├── .gitignore
@@ -208,7 +205,6 @@ eb open
 eb deploy
 ```
 
-The `.ebextensions/01_swap.config` file automatically creates a 512MB swap file on the EC2 instance to prevent out-of-memory errors with pandas + plotly on t2.micro.
 
 ---
 
