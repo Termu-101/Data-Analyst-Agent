@@ -17,7 +17,7 @@
 
 <br/>
 
-![Demo](http://data-agent-env.eba-ckzamic8.us-east-1.elasticbeanstalk.com/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=amazonaws)](http://data-agent-env.eba-ckzamic8.us-east-1.elasticbeanstalk.com/)
 
 </div>
 
